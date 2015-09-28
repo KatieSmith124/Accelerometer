@@ -32,9 +32,9 @@ public class GetAcceleration extends Command
 	// Called repeatedly when this Command is scheduled to run
 	protected void execute() 
 	{
-		SmartDashboard.putDouble("x", accl.getX());
-		SmartDashboard.putDouble("y", accl.getY());
-		SmartDashboard.putDouble("z", accl.getZ());
+		SmartDashboard.putNumber("x", accl.getX());
+		SmartDashboard.putNumber("y", accl.getY());
+		SmartDashboard.putNumber("z", accl.getZ());
 	}
 
 	// Make this return true when this Command no longer needs to run execute()
